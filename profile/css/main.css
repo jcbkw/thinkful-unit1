@@ -1,0 +1,43 @@
+body {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  color: #555;
+}
+
+.main, .sidebar, .content {
+  /*border: dashed 1px #aaa;*/
+}
+
+.main {
+  margin: 20px;
+  float: left;
+}
+
+.sidebar {
+  width: 200px;
+  min-height: 300px;
+  float: left;
+}
+
+.content {
+  min-height: 600px;
+  padding: 20px;
+  margin-left: 5px;
+  float: left;
+  border-left: solid 2px #dedede;
+}
+
+.skills {
+  width: 500px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  background: #cecece url('../img/avatar.png') no-repeat;
+  margin: 30px auto;
+}
+
+.title p.designation {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
