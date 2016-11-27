@@ -1,0 +1,35 @@
+div {
+
+ color: blue;
+
+}
+
+body #strongest.stronger {
+
+  color: cyan;
+
+}
+
+body #strongest {
+
+  color: purple;
+
+}
+
+#strongest {
+
+  color: black;
+
+}
+
+.stronger.even-stronger {
+
+  color: yellow;
+
+}
+
+.stronger {
+
+  color: red;
+
+}

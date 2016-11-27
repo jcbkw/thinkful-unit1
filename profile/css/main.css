@@ -1,7 +1,7 @@
 body {
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   color: #555;
-  background-color: #795448;
+  background-color: #dedede; /*795448*/
 }
 
 .main, .sidebar, .content {
@@ -16,13 +16,15 @@ body {
   background-color: #d7ccc8;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 3px 8px 6px -6px #565656;
 }
 
 .sidebar {
   width: 30%;
   height: 100%;
   float: left;
-  background-color: #fff;
+  background-color: #efefef;
+  opacity: .9;
 }
 
 .content {
@@ -32,7 +34,6 @@ body {
   box-sizing: border-box;
   /*margin-left: 5px;*/
   float: left;
-  border-left: solid 2px #dedede;
 
 }
 
