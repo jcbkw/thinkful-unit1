@@ -1,0 +1,133 @@
+body {
+
+  font-family: arial, sans-serif;;
+  font-size: 12px;
+  margin: 0;
+
+}
+
+main,
+aside {
+
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+main {
+
+  width: 65%;
+
+}
+
+aside {
+
+  width: 35%;
+  /*border-left: 1px solid #eee;*/
+
+}
+
+  aside img {
+
+    width: 128px;
+    height: auto;
+    border: 1px solid #eee;
+    padding: 2px;
+
+  }
+
+  aside address p {
+
+    margin: 5px 0;
+
+  }
+
+/*.table {
+
+  display: table;
+  width: 60%;
+  border: 1px solid #ddd;
+
+}
+  .tr {
+
+    display: table-row;
+
+  }
+
+  .td {
+
+    display: table-cell;
+    height: 32px;
+    vertical-align: middle;
+    padding-left: 5px
+  }
+
+  .td.key {
+    width: 150px;
+    font-weight: bold;
+  }
+
+  .tr:nth-child(2n+1) {
+    background-color: #f3f3f3;
+  }*/
+
+  .color-accent-1 {
+
+      color: #536dfe;
+
+  }
+
+  .experience {
+
+    text-transform: uppercase;
+    font-weight: normal;
+
+  }
+
+  ul {
+
+    list-style: none;
+    padding: 0;
+
+  }
+
+    .experiences li {
+
+      margin-bottom: 25px;
+
+    }
+
+    .experiences li h4 font {
+
+      font-weight: normal;
+
+    }
+
+    .experiences li h4,
+    .experiences li p {
+
+      margin: 5px 0;
+
+    }
+
+    .experiences li span {
+
+      color: #bdbdbd;
+      text-transform: uppercase;
+
+    }
+
+    .experiences li p {
+
+      color: #757575
+
+    }
+
+  #mytitle{
+
+    border-bottom: #eebbee 3px dashed;
+    font-size: 2em;
+
+  }
