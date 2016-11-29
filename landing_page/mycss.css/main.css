@@ -1,0 +1,111 @@
+body {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  color: #555;
+  background-color: #dedede; /*795448*/
+}
+
+.main, .sidebar, .content {
+  /*border: dashed 1px #aaa;*/
+}
+
+.main {
+  margin: 20px auto;
+  height: 610px;
+  min-width: 550px;
+  /*float: left;*/
+  background-color: #d7ccc8;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  box-shadow: 0px 5px 8px 1px rgba(0,0,0,.1);
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-color: #efefef;
+  opacity: .9;
+}
+
+.content {
+  height: 100%;
+  width: 69%;
+  padding-left:10px;
+  box-sizing: border-box;
+  /*margin-left: 5px;*/
+  float: left;
+
+}
+
+.profile-image {
+
+  width: 150px;
+  height: 150px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.skills ul {
+
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.skills li{
+
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+
+}
+
+.profile-image {
+  background: #cecece url('../img/avatar.png') no-repeat;
+  background-size: contain;
+}
+
+
+.title #main-title {
+  border-bottom: solid 2px #dedede;
+  /*text-align: center;*/
+
+}
+
+.bio {
+
+  /*max-width: 500px;*/
+
+}
+
+
+.designation {
+color: #607b80;
+ font-family: Georgia, Times, "Times New Roman", serif;
+ font-style: italic;
+ text-align: center;
+
+}
+
+#skill-html {
+
+
+  background: #cecece url('../img/html-256.png') no-repeat;
+  background-size: contain;
+
+}
+
+#skill-css {
+  background: #cecece url('../img/css-256.png') no-repeat;
+  background-size: contain;
+
+
+}
+
+#skill-js {
+
+  background: #cecece url('../img/js-256.png') no-repeat;
+  background-size: contain;
+
+}
